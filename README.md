@@ -27,8 +27,10 @@ public class ContactTable {
     String mobileNumber;
 }
 
+```
 # Create Database Helper
 
+```
 @Override
 public void onCreate(SQLiteDatabase database, ConnectionSource connectionSource) {
   try {
